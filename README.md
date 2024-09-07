@@ -11,6 +11,8 @@ In the Internet of Things (IoT), devices have limited computational capabilities
 ## Keywords
 *Internet of Things*, *DDoS cyberattacks*, *quantum machine learning*, *quantum support vector machines*, *quantum neural networks*.  
 ## Main references related to data, methodology and code used in this work
-Combarro, E. F., González-Castillo, S., & Di Meglio, A. (2023). *A Practical Guide to Quantum Machine Learning and Quantum Optimization: Hands-on Approach to Modern Quantum Algorithms*. Packt Publishing Ltd.  
-Dasari, K. B., & Devarakonda, N. (2022). Detection of TCP-based DDoS attacks with SVM classification with different kernel functions using common uncorrelated feature subsets. *International Journal of Safety and Security Engineering, 12*(2), 239-249.  
+Combarro, E. F., González-Castillo, S., & Di Meglio, A. (2023). *A Practical Guide to Quantum Machine Learning and Quantum Optimization: Hands-on Approach to Modern Quantum Algorithms*. Packt Publishing Ltd.
+
+Dasari, K. B., & Devarakonda, N. (2022). Detection of TCP-based DDoS attacks with SVM classification with different kernel functions using common uncorrelated feature subsets. *International Journal of Safety and Security Engineering, 12*(2), 239-249.
+
 Hadi, H. J., Hayat, U., Musthaq, N., Hussain, F. B., & Cao, Y. (2022, November). Developing Realistic Distributed Denial of Service (DDoS) Dataset for Machine Learning-based Intrusion Detection System. In *2022 9th International Conference on Internet of Things: Systems, Management and Security (IOTSMS)* (pp. 1-6). IEEE.
