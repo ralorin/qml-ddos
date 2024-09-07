@@ -1,7 +1,7 @@
 # qml-ddos
-Code related to the Master's Thesis:  
+Code related to the Master’s Thesis:  
 ## “Quantum Machine Learning for detection of DDoS cyberattacks”  
-**Master's Degree in Quantum Computing, International University of La Rioja (UNIR)**  
+**Master’s Degree in Quantum Computing, International University of La Rioja (UNIR), Spain**  
 **presented by** Ricardo S. Alonso Rincón  
 **supervised by** Dr. Rodrigo Gil-Merino y Rubio  
 **co-supervised by** Dr. Javier Prieto Tejedor  
