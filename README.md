@@ -1,15 +1,11 @@
 # qml-ddos
-Code related to the Master’s Thesis:  
-## “Quantum Machine Learning for detection of DDoS cyberattacks”  
-**Master’s Degree in Quantum Computing, International University of La Rioja (UNIR), Spain**  
-**presented by** Ricardo S. Alonso Rincón  
-**supervised by** Dr. Rodrigo Gil-Merino y Rubio  
-**co-supervised by** Dr. Javier Prieto Tejedor  
+Code related to the research work:
+## “Quantum machine learning for detection of DDoS cyberattacks”  
+**Ricardo S. Alonso, Guillermo Rivas, Rodrigo Gil-Merino, Diego Valdeolmillos, Javier Prieto**
 ## Abstract
-In the Internet of Things (IoT), devices have limited computational capabilities in order to reduce their size and energy consumption, making them vulnerable to the deployment of *botnets* and their use in *Distributed Denial of Service* (DDoS) cyberattacks on remote servers, which limits the services available to legitimate users and causes economic losses. Although classical *Deep Learning* techniques can detect these cyberattacks, they require large amounts of data and computational resources. *Quantum Machine Learning* emerges as a potential solution for solving problems more energy-efficiently. This work compares various classical learning models —*Support Vector Machines* (SVM) and *Artificial Neural Networks* (ANN)— and quantum models —*Quantum Support Vector Machines* (QSVM) and *Quantum Neural Networks* (QNN)— using different *feature maps* to encode classical data and detect DDoS attacks from TCP/IP packet flows. The results show that QSVMs achieve an *f1-score* close to classical models, with 
-*angle embedding* being the best feature map for both QSVMs and QNNs, although it requires longer computation time due to slower convergence.  
+In the Internet of Things (IoT), devices are designed with constrained computational capacity to minimize size and energy consumption, which renders them susceptible to *botnet* infections and their exploitation in *Distributed Denial of Service* (DDoS) attacks against remote servers. Such attacks degrade service availability for legitimate users and cause substantial economic losses. Although conventional *Deep Learning* methods can detect these threats, they typically require extensive data and significant computational resources. *Quantum Machine Learning* (QML) has emerged as a promising alternative, offering improved energy efficiency. This work investigates the application of *Quantum Neural Networks* (QNNs) with different *feature maps* for encoding classical TCP/IP traffic data to detect DDoS attacks. The performance of QNNs is compared against classical models —*Support Vector Machines* (SVMs) and *Artificial Neural Networks* (ANNs)— and quantum models such as *Quantum Support Vector Machines* (QSVMs). Experimental results show that QSVMs outperform QNNs and deliver an *f1-score* comparable to classical approaches. Among the evaluated feature maps, *angle embedding* provides the highest performance in both QSVMs and QNNs, albeit at the cost of longer training times due to slower convergence.
 ## Keywords
-*Internet of Things*, *DDoS cyberattacks*, *quantum machine learning*, *quantum support vector machines*, *quantum neural networks*.  
+*Internet of Things*, *Distributed Denial of Service*, *quantum machine learning*, *quantum support vector machines*, *quantum neural networks*.  
 ## Main references related to data, methodology and code used in this work
 Combarro, E. F., González-Castillo, S., & Di Meglio, A. (2023). *A Practical Guide to Quantum Machine Learning and Quantum Optimization: Hands-on Approach to Modern Quantum Algorithms*. Packt Publishing Ltd.
 
@@ -19,3 +15,11 @@ Hadi, H. J., Hayat, U., Musthaq, N., Hussain, F. B., & Cao, Y. (2022, November).
 ## Dataset
 The `CICDDDoS2019` dataset created by Hadi et al. (2022) and used in this work can be obtained through the following URL address where it is described and can be downloaded:  
 [https://www.unb.ca/cic/datasets/ddos-2019.html](https://www.unb.ca/cic/datasets/ddos-2019.html)
+## Note on Master's Thesis
+This work is originally based on the Master’s Thesis:  
+  
+**“Quantum Machine Learning for detection of DDoS cyberattacks”**  
+**Master’s Degree in Quantum Computing, International University of La Rioja (UNIR), Spain**  
+**presented by** Dr. Ricardo S. Alonso Rincón  
+**supervised by** Dr. Rodrigo Gil-Merino y Rubio  
+**co-supervised by** Dr. Javier Prieto Tejedor  
